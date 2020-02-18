@@ -4,7 +4,7 @@ import os
 
 client = discord.Client()
 access_token =os.environ["BOT_TOKEN"]
-token = "access_token"
+token = access_token
 
 
 
