@@ -1,9 +1,10 @@
-
 import discord
+import os
 
 
 client = discord.Client()
-token = "Njc5MTkxMTE1OTUzNDcxNDg4.Xkv4LA.0JqzjrUmAC-Be11Jw1zk5-Sx8gI"
+access_token =os.environ["BOT_TOKEN"]
+token = "access_token"
 
 
 
